@@ -11,6 +11,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build ",
+    "deploy":" gh-pages -d build ",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -32,8 +34,10 @@
   },
   "devDependencies": {
     "auto": "^11.1.6",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "prefixer": "^0.0.3",
     "tailwindcss": "^3.4.3"
-  }
+  },
+  "homepage": "/Users/Familia Garzon/curso-react-intro/build/"
 }
